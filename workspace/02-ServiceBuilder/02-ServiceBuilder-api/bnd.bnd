@@ -1,0 +1,9 @@
+Bundle-Name: 02-ServiceBuilder-api
+Bundle-SymbolicName: com.liferay.curso.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.curso.exception,\
+	com.liferay.curso.model,\
+	com.liferay.curso.service,\
+	com.liferay.curso.service.persistence
+-includeresource: META-INF/service.xml=../02-ServiceBuilder-service/service.xml

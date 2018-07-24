@@ -1,0 +1,32 @@
+# Maven
+
+target/
+
+# Gradle
+
+.gradle/
+gradlew
+gradlew.bat
+gradle/
+
+# Eclipse
+
+.settings/
+.classpath
+.project
+.cache-main
+.cache-test
+bin/
+.tern-project
+.metadata/
+.recomenders/
+RemoteSystemsTempFiles/
+
+
+# STS
+
+.springBeans
+
+# IntelliJ
+
+.idea/

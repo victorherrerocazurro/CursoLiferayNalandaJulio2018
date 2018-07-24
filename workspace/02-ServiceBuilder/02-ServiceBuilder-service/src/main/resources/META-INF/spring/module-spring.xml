@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="com.liferay.curso.service.impl.BarLocalServiceImpl" id="com.liferay.curso.service.BarLocalService" />
+	<bean class="com.liferay.curso.service.impl.BarServiceImpl" id="com.liferay.curso.service.BarService" />
+	<bean class="com.liferay.curso.service.persistence.impl.BarPersistenceImpl" id="com.liferay.curso.service.persistence.BarPersistence" parent="basePersistence" />
+	<bean class="com.liferay.curso.service.impl.FooLocalServiceImpl" id="com.liferay.curso.service.FooLocalService" />
+	<bean class="com.liferay.curso.service.impl.FooServiceImpl" id="com.liferay.curso.service.FooService" />
+	<bean class="com.liferay.curso.service.persistence.impl.FooPersistenceImpl" id="com.liferay.curso.service.persistence.FooPersistence" parent="basePersistence" />
+	<bean class="com.liferay.curso.service.persistence.impl.FooFinderImpl" id="com.liferay.curso.service.persistence.FooFinder" parent="basePersistence" />
+</beans>

@@ -1,0 +1,41 @@
+//======================
+//======================
+== Aplicacion insultos
+//======================
+//======================
+
+//======================
+//======================
+=== V1
+//======================
+//======================
+
+Crear un portlet normal con un listado de insultos
+
+Crear el portlet administrativo con CRUD
+
+Emplear Service Builder
+
+Indexar contenidos
+
+//======================
+//======================
+=== V2
+//======================
+//======================
+
+Añadir negocio para obtener el listado con CustomQuery y DynamicQuery
+
+Buscador con navegacion (Render)
+
+//======================
+//======================
+=== V3
+//======================
+//======================
+
+Buscador con JS (Ajax)
+
+Crear MVCCommandResource
+
+Struts

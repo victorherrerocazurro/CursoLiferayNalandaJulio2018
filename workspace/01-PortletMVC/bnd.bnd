@@ -1,0 +1,4 @@
+Bundle-Name: 01-PortletMVC
+Bundle-SymbolicName: com.liferay.curso
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.curso.constants

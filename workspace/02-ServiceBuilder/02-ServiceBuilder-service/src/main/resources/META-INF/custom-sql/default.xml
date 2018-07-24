@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-sql>
+    <sql id="com.liferay.curso.service.persistence.FooFinder.findByField1">
+        SELECT FOO_Foo.*
+        FROM FOO_Foo
+        WHERE FOO_Foo.field1 LIKE ?
+    </sql>
+</custom-sql>
