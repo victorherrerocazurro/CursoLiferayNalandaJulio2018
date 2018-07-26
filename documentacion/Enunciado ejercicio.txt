@@ -34,8 +34,8 @@ Buscador con navegacion (Render)
 //======================
 //======================
 
+Crear dos equipos uno que se encarge del back (Service Builder) y otro del front (jsp + JS)
+
 Buscador con JS (Ajax)
-
-Crear MVCCommandResource
-
-Struts
+	- Emplear el modulo de alloyui de io-request + (MVCCommandResource o Struts)
+	- Emplear el API de Service.

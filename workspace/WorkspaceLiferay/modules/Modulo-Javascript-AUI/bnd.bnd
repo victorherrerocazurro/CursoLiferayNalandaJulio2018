@@ -1,0 +1,5 @@
+Bundle-Name: Modulo-Javascript-AUI
+Bundle-SymbolicName: com.ejemplo.liferay.modulo.js.aui
+Bundle-Version: 1.0.0
+Liferay-JS-Config: /META-INF/resources/js/config.js
+Web-ContextPath: /my-modulo

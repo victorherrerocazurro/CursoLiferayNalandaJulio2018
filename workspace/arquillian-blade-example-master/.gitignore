@@ -1,0 +1,9 @@
+.gradle/
+.idea/
+build/
+target/
+liferay/
+/bin/
+.settings/
+.classpath
+.project

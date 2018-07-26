@@ -1,0 +1,11 @@
+Bundle-Name: SoyPortlet
+Bundle-SymbolicName: SoyPortlet
+Bundle-Version: 1.0.0
+Provide-Capability:\
+	soy;\
+		type="SoyPortlet";\
+		version:Version="1.0.0"
+Require-Capability:\
+	soy;\
+		filter:="(type=metal)"
+-includeresource: package.json
