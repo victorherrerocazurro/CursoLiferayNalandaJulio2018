@@ -1,0 +1,9 @@
+Bundle-Name: Insultos-api
+Bundle-SymbolicName: com.curso.insultos.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.curso.insultos.exception,\
+	com.curso.insultos.model,\
+	com.curso.insultos.service,\
+	com.curso.insultos.service.persistence
+-includeresource: META-INF/service.xml=../Insultos-service/service.xml

@@ -1,0 +1,4 @@
+Bundle-Name: Insultos-web
+Bundle-SymbolicName: com.curso.insultos
+Bundle-Version: 1.0.0
+Export-Package: com.curso.insultos.constants

@@ -168,7 +168,7 @@ setUpTestableTomcat {
 }
 
 startTestableTomcat {
-	checkTimeout = 10 * 60 * 1000
+	checkTimeout = 100 * 60 * 1000
 }
 
 repositories {

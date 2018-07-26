@@ -56,7 +56,7 @@ public class GuestbookLocalServiceImpl extends GuestbookLocalServiceBaseImpl {
 	public Guestbook addGuestbook(
 		long userId, String name, ServiceContext serviceContext)
 		throws PortalException {
-
+		
 		long groupId = serviceContext.getScopeGroupId();
 
 		User user = userLocalService.getUserById(userId);
